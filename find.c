@@ -7,7 +7,7 @@ example
 ./find madruga
 
 need this lib http://libcgi.sourceforge.net/
-yum install libcgi-devel
+yum install libcgi-devel libdbi-devel
 
 gcc -o find find.c -lcgi -ldbi
 
