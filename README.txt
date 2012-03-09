@@ -22,7 +22,7 @@ exploit.
 
 Your mission is simple,compile the "CGI"
 file "find.cgi",run http://site/cgi-bin/find,
-try get the one user pass  and crack the MD5 
+try get the one user pass  and crack the hash 
 and try enter in auth on  "auth.cgi". 
 
 
