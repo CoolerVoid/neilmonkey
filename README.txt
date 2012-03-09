@@ -1,6 +1,11 @@
 Author: Antonio Costa "Cooler_"
 contact: c00f3r[at]gmail[dot]com
 
+BugSec.com.br
+code.google.com/p/bugsec/
+---------------------------
+
+-
 
 +-------------------------+------+
 | Neil Monkey |  WarGame  | 0x01 |
@@ -15,10 +20,10 @@ the interesting from this game,is that
 have many forms to find one course to 
 exploit.
 
-Your mission is simple,exploit the "CGI"
-file "find.cgi",get the one user pass 
-and crack the MD5 and try enter in auth on 
-"auth.cgi". 
+Your mission is simple,compile the "CGI"
+file "find.cgi",run http://site/cgi-bin/find,
+try get the one user pass  and crack the MD5 
+and try enter in auth on  "auth.cgi". 
 
 
 How to install and use
@@ -53,6 +58,10 @@ INSERT INTO neiluser (login,pass,state,mail,bankcode) VALUES ("heman", "6ac2c10a
 INSERT INTO neiluser (login,pass,state,mail,bankcode) VALUES ("jaspion", "5fc83d2bf1d3922eccc4364d207935a4","SP","jap@x.com","001");
 
 now look the find.c file read coments...
+
+
+
+// coments about
 
 I guess about change DBI api to "MySQL.h",
 because DBI bind some logs, this causes somes
