@@ -9,7 +9,7 @@ example
 need this lib http://libcgi.sourceforge.net/
 yum install libcgi-devel
 
-gcc -o code code.c -lcgi -ldbi
+gcc -o find find.c -lcgi -ldbi
 
 to run:
  http://localhost/cgi-bin/wargame/find
