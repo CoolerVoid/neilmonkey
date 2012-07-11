@@ -1,6 +1,6 @@
 /*
  
- Cooler's code to test to SQL injection 
+ Cooler's code to test  SQL injection 
  on wargame...
 
 example
